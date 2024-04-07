@@ -12,6 +12,7 @@ body{
 }
 
 h2 {
+  font-family: "kalam";
   font-size: 3rem;
   color: #074a07;
   margin: 2rem;
@@ -23,6 +24,7 @@ h3 {
 }
 
 p {
+  font-family: "caveat";
   font-size: 1.5rem;
   color: #074a07;
 }
@@ -96,6 +98,7 @@ p {
 .welcome h1 {
   position: relative;
   top: 22rem;
+  font-family: "kalam";
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
@@ -166,6 +169,7 @@ img {
 }
 
 .caption h3 {
+  font-family: "kalam";
   font-size: 2.5rem;
   font-weight: 700;
   color: #074a07;
@@ -200,6 +204,10 @@ img {
   padding: 2rem;
 }
 
+.bio p {
+  font-weight: 600;
+}
+
 .team-tokyo{
   display: flex;
   margin-top: 3rem;
@@ -225,7 +233,12 @@ img {
 .contact li {
   padding: 2rem;
   color: #074a07;
+  font-family: caveat;
   font-size: 2rem;
+}
+
+.contact h3 {
+  font-family: "kalam";
 }
 
 /* footer */
@@ -238,3 +251,4 @@ footer {
   align-items: center;
   z-index: 1;
 }
+
