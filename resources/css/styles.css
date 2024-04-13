@@ -33,20 +33,19 @@ p {
 /* nav bar */
 
 .nav {
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
   position: fixed;
   z-index: 1;
   width: 100%;
   height: 3.5rem;
-  padding-top: .25rem;
+  padding-top: 1rem;
   background-color: #bfbebe;
   border-bottom: 0.125rem solid black;
+  justify-content: space-around;
+  align-items: center;
+
 }
 
-#local {
-  justify-content:center ;
-}
 
 #local li {
   display: inline-flex;
@@ -54,10 +53,8 @@ p {
   padding: .5rem;
 }
 
+
 #social li {
-  position: relative;
-  left: 28rem;
-  top: 1rem;
   padding: .25rem;
   display: inline-flex;
 }
@@ -68,8 +65,6 @@ p {
 }
 
 .logo {
-  position: relative;
-  right: 15rem;
   top: .175rem;
   border: none;
   margin-left: .5rem;
@@ -90,14 +85,14 @@ p {
 }
 
 .welcome {
-  width: auto;
+  width: 100%;
   height: 42rem;
   justify-content: center;
 }
 
 .welcome h1 {
   position: relative;
-  top: 22rem;
+  top: 25rem;
   font-family: "kalam";
   font-size: 2.5rem;
   font-weight: bold;
@@ -123,11 +118,10 @@ p {
 }
 
 
-
 /* services */
 
 .services {
-  padding: 3rem;
+  padding: 12rem;
   text-align: center;
   margin-bottom: 4rem;
 }
@@ -218,7 +212,7 @@ img {
 
 .contact {
   display: flex;
-  padding-top:4rem;
+  padding-top:8rem;
   text-align: center;
   justify-content: center;
 }
@@ -244,11 +238,11 @@ img {
 /* footer */
 
 footer {
+  padding-top: 5rem;
   width: 100%;
-  font-size: .5rem;
+  font-size: 1rem;
   background-color: #bfbebe;
   justify-content: start;
   align-items: center;
   z-index: 1;
 }
-

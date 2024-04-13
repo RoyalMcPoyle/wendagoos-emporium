@@ -139,6 +139,7 @@ a {
   font-weight: 700;
   font-family: "Kaushan Script";
   text-decoration: underline;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 a:hover {
