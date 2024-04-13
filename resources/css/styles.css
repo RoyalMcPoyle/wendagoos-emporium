@@ -258,15 +258,23 @@ footer {
     padding: 1rem;
   }
 
+  .bio {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (max-width: 320px) {
   .icon {
-    width: 2.5rem;
+    width: 2rem;
   }
 
   #social li {
     padding: 1rem;
   }
 
+  .bio {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
