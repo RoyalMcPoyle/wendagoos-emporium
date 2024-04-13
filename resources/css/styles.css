@@ -3,7 +3,7 @@ html {
   background-color: #bfbebe;
 }
 
-body{
+body {
   background-color: #bfbebe;
 }
 
@@ -20,7 +20,7 @@ h2 {
 
 h3 {
   font-size: 2.5rem;
-  color:#074a07;
+  color: #074a07;
 }
 
 p {
@@ -42,14 +42,14 @@ p {
   background-color: #bfbebe;
   border-bottom: 0.125rem solid black;
   justify-content: space-around;
-  align-items: center;
+  align-content: center;
 
 }
 
 
 #local li {
   display: inline-flex;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: .5rem;
 }
 
@@ -67,7 +67,7 @@ p {
 .logo {
   top: .175rem;
   border: none;
-  margin-left: .5rem;
+
 }
 
 /* welcome banner */
@@ -140,13 +140,13 @@ p {
 .event-container {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 2rem;
   width: auto;
-  height: max-content;
+  height: auto;
   align-items: center;
   gap: 4.5rem;
-  }
+}
 
 .events {
   border: 2px solid #074a07;
@@ -158,6 +158,7 @@ p {
 img {
   border: 2px solid #074a07;
 }
+
 .caption {
   padding: 1rem;
 }
@@ -167,7 +168,6 @@ img {
   font-size: 2.5rem;
   font-weight: 700;
   color: #074a07;
-  
 }
 
 /* team */
@@ -191,7 +191,7 @@ img {
 }
 
 .bio {
-  width: 25rem; 
+  width: 25rem;
   border: 2px solid #074a07;
   background-color: #b0b0b0;
   border-radius: .5rem;
@@ -202,7 +202,7 @@ img {
   font-weight: 600;
 }
 
-.team-tokyo{
+.team-tokyo {
   display: flex;
   margin-top: 3rem;
   justify-content: center;
@@ -212,7 +212,7 @@ img {
 
 .contact {
   display: flex;
-  padding-top:8rem;
+  padding-top: 8rem;
   text-align: center;
   justify-content: center;
 }
@@ -238,14 +238,12 @@ img {
 /* footer */
 
 footer {
-  padding-top: 5rem;
+  left: 0;
+  bottom: 0;
   width: 100%;
   font-size: 1rem;
   background-color: #bfbebe;
-  justify-content: start;
-  align-items: center;
-  z-index: 1;
-  float: inline-end;
+
 }
 
 
