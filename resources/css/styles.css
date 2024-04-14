@@ -295,6 +295,10 @@ footer {
   }
 
   .contact {
-    padding-bottom: 20rem;
+    padding-bottom: 25rem;
+  }
+
+  .mission {
+    padding-bottom: 10rem;
   }
 }
