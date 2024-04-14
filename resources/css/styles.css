@@ -213,9 +213,17 @@ img {
 .contact {
   display: flex;
   padding-top: 8rem;
-  padding-bottom: 10rem;
+  padding-bottom: 8rem;
   text-align: center;
   justify-content: center;
+}
+
+#map-section {
+  width: auto;
+  height: 30rem;
+  background-image: url("../images/walla-walla-map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact ul {
@@ -234,6 +242,9 @@ img {
 
 .contact h3 {
   font-family: "kalam";
+  padding-top: 10rem;
+  color: #FFFFFF;
+  opacity: 100%;
 }
 
 /* footer */
