@@ -111,11 +111,16 @@ p {
   margin-top: 12rem;
   margin-bottom: 5rem;
   text-align: center;
-  padding-bottom: 5rem;
 }
 
 .mission p {
   margin: 1rem 5rem;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
 }
 
 /* services */
