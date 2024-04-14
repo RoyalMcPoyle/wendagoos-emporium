@@ -213,6 +213,7 @@ img {
 .contact {
   display: flex;
   padding-top: 8rem;
+  padding-bottom: 10rem;
   text-align: center;
   justify-content: center;
 }
@@ -260,6 +261,23 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .icon {
+    width: 2rem;
+  }
+
+  #social li {
+    padding: 1rem;
+  }
+
+  .bio {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #footer-index {
+    margin-bottom: 0%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -274,5 +292,9 @@ footer {
   .bio {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .contact {
+    padding-bottom: 20rem;
   }
 }
