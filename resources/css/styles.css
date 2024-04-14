@@ -118,7 +118,6 @@ p {
   margin: 1rem 5rem;
 }
 
-
 /* services */
 
 .services {
@@ -307,10 +306,10 @@ footer {
   }
 
   .contact {
-    padding-bottom: 25rem;
+    padding-bottom: 26rem;
   }
 
   .mission {
-    padding-bottom: 10rem;
+    padding-bottom: 18rem;
   }
 }
