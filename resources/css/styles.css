@@ -289,6 +289,14 @@ footer {
   #footer-index {
     margin-bottom: 0%;
   }
+  .contact {
+    padding-bottom: 26rem;
+  }
+
+  .mission {
+    padding-bottom: 20rem;
+  }
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -310,6 +318,6 @@ footer {
   }
 
   .mission {
-    padding-bottom: 25rem;
+    padding-bottom: 20rem;
   }
 }
